@@ -127,14 +127,12 @@ Skill 必须放在 Cursor 个人 skills 目录（**所有项目共用**）：
 
 ### 首次安装（从 GitHub）
 
-将 `YOUR_USER` 换成你的 GitHub 用户名：
-
 ```bash
 # macOS / Linux
-git clone https://github.com/YOUR_USER/project-bootstrap.git ~/.agents/skills/project-bootstrap
+git clone https://github.com/chenkunqing/project-bootstrap.git ~/.agents/skills/project-bootstrap
 
 # Windows PowerShell
-git clone https://github.com/YOUR_USER/project-bootstrap.git "$env:USERPROFILE\.agents\skills\project-bootstrap"
+git clone https://github.com/chenkunqing/project-bootstrap.git "$env:USERPROFILE\.agents\skills\project-bootstrap"
 ```
 
 安装后**新开 Agent 会话**，对话里输入 `@project-bootstrap` 应能引用到本 skill。
@@ -209,7 +207,7 @@ git add SKILL.md discovery.md templates.md README.md LICENSE
 git commit -m "docs: project-bootstrap skill"
 
 # GitHub 上新建空仓库 project-bootstrap 后：
-git remote add origin https://github.com/YOUR_USER/project-bootstrap.git
+git remote add origin https://github.com/chenkunqing/project-bootstrap.git
 git push -u origin master
 ```
 
